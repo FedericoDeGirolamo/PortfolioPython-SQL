@@ -15,4 +15,5 @@ In credit risk modeling, it is crucial to avoid survival bias. The logic applied
 * **Exclusions (Bias Mitigation):** Indeterminate and ongoing loans ('Current', 'In Grace Period', short-term delays) were strictly excluded (`WHERE ... NOT IN`) as their final status is unknown, preventing bias in the predictive model's training phase.
 ## Data Source
 The dataset used for this project is the public Lending Club Loan Data.
-Due to file size limits, the raw dataset is not hosted in this repository. You can download the original data from [Kaggle - Lending Club Dataset](https://www.kaggle.com/datasets/wordsforthewise/lending-club).
+Due to file size limits, the raw dataset is not hosted in this repository. You can download the original data directly from [Kaggle - Lending Club Loan Data CSV](https://www.kaggle.com/datasets/adarshsng/lending-club-loan-data-csv).
+
