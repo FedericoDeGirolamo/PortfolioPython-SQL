@@ -13,3 +13,6 @@ In credit risk modeling, it is crucial to avoid survival bias. The logic applied
 * **Default (1):** Loans explicitly labeled as 'Charged Off', 'Default', or with severe delays (31-120 days).
 * **Performing (0):** Loans successfully 'Fully Paid'.
 * **Exclusions (Bias Mitigation):** Indeterminate and ongoing loans ('Current', 'In Grace Period', short-term delays) were strictly excluded (`WHERE ... NOT IN`) as their final status is unknown, preventing bias in the predictive model's training phase.
+## Data Source
+The dataset used for this project is the public Lending Club Loan Data.
+Due to file size limits, the raw dataset is not hosted in this repository. You can download the original data from [Kaggle - Lending Club Dataset](https://www.kaggle.com/datasets/wordsforthewise/lending-club).
