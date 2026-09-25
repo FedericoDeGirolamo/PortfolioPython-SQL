@@ -1,2 +1,2 @@
 # PortfolioPython
-Python project portfolio
+Python and Sql project portfolio
